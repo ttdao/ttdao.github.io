@@ -5,3 +5,4 @@ node_modules
 package-lock.json
 Gemfile.lock
 .sublime-project
+.DS_Store
