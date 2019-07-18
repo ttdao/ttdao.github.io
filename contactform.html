@@ -24,6 +24,8 @@
     <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" required />
 
     <span class="recaptcha_icon"><a href="javascript:Recaptcha.reload()"><i class="fa fa-refresh"></i></a></span>
+
+
     <span class="recaptcha_icon recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')"><i class="fa fa-volume-up"></i></a></span>
     <span class="recaptcha_icon recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')"><i class="fa fa-font"></i></a></span>
     <span class="recaptcha_icon"><a href="javascript:Recaptcha.showhelp()"><i class="fa fa-question-circle"></i></a></span>
@@ -32,10 +34,12 @@
   <button type="submit">Send</button>
 </form>
 
+
+
 <script type="text/javascript" src="https://www.google.com/recaptcha/api.js">
   function showRecaptcha(element) {
   Recaptcha.create('6LdTCK4UAAAAANRK4amTiMQ0rneWA54ivUTs4A7I', element, {
-    theme: 'custom', // you can pick another at https://developers.google.com/recaptcha/docs/customization
+    theme: 'light', // you can pick another at https://developers.google.com/recaptcha/docs/customization
     custom_theme_widget: 'recaptcha_widget'
   });
 }
