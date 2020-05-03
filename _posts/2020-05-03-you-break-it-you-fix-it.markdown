@@ -1,0 +1,15 @@
+---
+title: You Break it, You Fix it!
+layout: default
+---
+<article>
+
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+
+</article>
