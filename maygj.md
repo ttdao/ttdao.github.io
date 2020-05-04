@@ -8,7 +8,7 @@ layout: maygj
     <h1>{{ page.title | escape }}</h1>
   </header>
 
-<center><img src="/assets/gj/plate-logo.png" height="50%" width="50%"></center>
+<center><img src="/assets/gj/game-logo.png" height="50%" width="50%"></center>
 
 <body>
  <p><i>
