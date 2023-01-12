@@ -16,11 +16,13 @@
 title: 
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  # copyright 2019
+  # copyright 2023
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "ttdao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  ttdao
+fname: Tien
+name: Tien Dao
 
 #repository: "nicolas-van/bootstrap-4-github-pages"
 

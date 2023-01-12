@@ -1,12 +1,4 @@
 ---
-layout: page
-title: Tien Dao
+layout: default
+name: Tien Dao
 ---
-
-
-## Welcome!
-
-Under Construction.
-
-
-

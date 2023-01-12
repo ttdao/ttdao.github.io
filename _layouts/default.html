@@ -6,10 +6,15 @@
   <body>
 
     {%- include header.html -%}
+    {%- include home-head.html -%}
 
     <div class="py-5">
       <div class="container page-content">
+
+        {%- include projects-page.html -%}
+        
           {{ content }}
+        
       </div>
     </div>
 
