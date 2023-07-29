@@ -1,6 +1,6 @@
 ---
 Title: About Me
-layout: page
+layout: about-page
 ---
 
 About me
