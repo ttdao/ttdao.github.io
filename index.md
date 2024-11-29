@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: homepage
 name: Tien Dao
 ---

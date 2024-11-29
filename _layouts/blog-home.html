@@ -10,12 +10,9 @@ layout: page
   </header>
   {%- endif -%}
 
-  <section>
-    {{ content }}
-  </section>
 
   {%- if site.posts.size > 0 -%}
-    <p class="h4">{{ page.list_title | default: "Posts" }}</p>
+    <p class="h4">{{ page.list_title }}</p>
     <ul class="list-unstyled">
       {%- for post in site.posts -%}
       <li>

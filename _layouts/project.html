@@ -1,0 +1,17 @@
+<!-- Project Page -->
+  <header>
+    {%- include head.html -%}
+
+    <h1>{{ page.title | escape }}</h1>
+    <h2>{{ page.event | escape }}</h2>
+    <h3>{{ page.eventdate | escapte}}</h3>
+    <p class="text-muted">
+      {{ page.oneliner }}
+    </p>
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+
+</article>
